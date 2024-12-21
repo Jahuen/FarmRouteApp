@@ -1,0 +1,51 @@
+.navContainer {
+    background-color: #48D85D;
+    width: 100%;
+    padding: 7px 24px;
+  }
+  
+  .navContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navItems {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .navIcon {
+    width: 33px;
+    aspect-ratio: 1;
+    object-fit: contain;
+  }
+  
+  .navLabel {
+    color: #000;
+    font: 400 12px/1 Inter, sans-serif;
+    letter-spacing: 0.5px;
+  }
+  
+  .active {
+    color: #fff;
+  }
+  
+  .searchButton {
+    color: #000;
+    font: 400 14px/1 Inter, sans-serif;
+    letter-spacing: 0.5px;
+  }
+  
+  @media (max-width: 640px) {
+    .navIcon {
+      margin-left: 43px;
+    }
+  }

@@ -1,0 +1,106 @@
+.loginContainer {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    max-width: 480px;
+    width: 100%;
+    flex-direction: column;
+    overflow: hidden;
+    color: rgba(0, 0, 0, 1);
+    margin: 0 auto;
+    padding: 125px 69px;
+    font: 400 12px Inter, sans-serif;
+  }
+  
+  .welcomeText {
+    font-size: 48px;
+    text-align: center;
+    align-self: center;
+  }
+  
+  .welcomeSmall {
+    font-size: 20px;
+  }
+  
+  .welcomeLarge {
+    font-weight: 700;
+  }
+  
+  .guestSection {
+    align-self: end;
+    display: flex;
+    margin-top: 73px;
+    gap: 8px;
+    text-align: center;
+  }
+  
+  .guestText {
+    flex-grow: 1;
+  }
+  
+  .guestHighlight {
+    font-weight: 700;
+    color: rgba(72,216,93,1);
+  }
+  
+  .guestIcon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 16px;
+  }
+  
+  .formContainer {
+    background-color: rgba(30, 30, 30, 1);
+    display: flex;
+    margin-top: 6px;
+    flex-direction: column;
+    padding: 38px 22px;
+  }
+  
+  .forgotPassword {
+    text-align: center;
+    margin-top: 29px;
+  }
+  
+  .termsSection {
+    align-self: center;
+    display: flex;
+    margin-top: 29px;
+    gap: 9px;
+  }
+  
+  .termsIcon {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 24px;
+    margin: auto 0;
+  }
+  
+  .termsLink {
+    color: rgba(0,34,255,1);
+  }
+  
+  .divider {
+    display: flex;
+    margin-top: 14px;
+    align-items: center;
+    gap: 12px;
+    white-space: nowrap;
+  }
+  
+  .dividerLine {
+    flex: 1;
+    height: 1px;
+    border: 1px solid rgba(0, 0, 0, 1);
+  }
+  
+  .signupText {
+    text-align: center;
+    margin-top: 22px;
+  }
+  
+  .signupLink {
+    font-weight: 700;
+    color: rgba(72,216,93,1);
+  }

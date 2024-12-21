@@ -1,0 +1,19 @@
+.fieldContainer {
+    margin: 8px 0;
+  }
+  
+  .fieldLabel {
+    display: block;
+    margin-bottom: 8px;
+    font: 700 12px/1 Inter, sans-serif;
+    letter-spacing: 0.5px;
+  }
+  
+  .fieldInput {
+    background-color: #fff;
+    width: 100%;
+    max-width: 360px;
+    font-size: 11px;
+    padding: 7px 9px;
+    border: 1px solid #000;
+  }

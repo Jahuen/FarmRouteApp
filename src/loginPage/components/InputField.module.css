@@ -1,0 +1,18 @@
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+  }
+  
+  .input {
+    background-color: rgba(255, 255, 255, 1);
+    height: 30px;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+  }
+  
+  .label {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 1);
+  }

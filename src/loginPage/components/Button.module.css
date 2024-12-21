@@ -1,0 +1,11 @@
+.button {
+    background-color: rgba(72, 216, 93, 1);
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding: 9px 24px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    color: #000;
+  }
